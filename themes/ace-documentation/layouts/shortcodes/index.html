@@ -1,0 +1,37 @@
+{{ with .Site.IsServer }}
+
+{{ end }}
+
+
+{{ range $.Site.Home.Sections }}
+{{ if .Section }}
+<h3>{{ .Title }}</h3>
+<p>{{ .Content }}</p>
+
+   {{ range .Pages }}
+   <ul>
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+   </ul>
+   {{ end }}
+
+
+{{ range .Sections }}
+<h2>Subsection: {{ .Title }}</h2>
+<!-- {{ .Content }} -->
+{{ range .Pages }}
+<!-- this <div> includes the title summary -->
+<div>
+   <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+   <p>
+      {{ .Summary }}
+      {{ if .Truncated }}
+      <!-- This <div> includes a read more link, but only if the summary is truncated... -->
+      <!-- <a href="{{ .RelPermalink }}">Read More…</a> -->
+      {{ end }}
+   </p>
+</div>
+{{ end }}
+{{ end }}
+
+{{ end }}
+{{ end }}
