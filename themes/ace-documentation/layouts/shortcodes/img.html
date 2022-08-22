@@ -1,0 +1,5 @@
+{{ $img := .Get "src" }}
+<figure class="img-fluid mt-5">
+	<img class="img-thumbnail" src="{{ $img }}" alt="{{ .Get "caption" }}" />
+	<figcaption><small>{{ .Get "caption" }}</small></figcaption>
+</figure>

@@ -1,14 +1,14 @@
-{{ with .Site.IsServer }}
+{{ if .Site.IsServer }}
 
 {{ end }}
 
 
 {{ range $.Site.Home.Sections }}
 {{ if .Section }}
-<h3>{{ .Title }}</h3>
-<p>{{ .Content }}</p>
 
-   {{ range .Pages }}
+<h2>{{ .Section | upper }}</h2>
+
+   {{ range first 100 .Pages }}
    <ul>
       <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
    </ul>
@@ -18,7 +18,7 @@
 {{ range .Sections }}
 <h2>Subsection: {{ .Title }}</h2>
 <!-- {{ .Content }} -->
-{{ range .Pages }}
+{{ range first 100  .Pages }}
 <!-- this <div> includes the title summary -->
 <div>
    <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
