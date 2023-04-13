@@ -1,9 +1,9 @@
 +++
 author= "Admin"
-title = "Guides Install - iPhone Spy V.1 - Windows"
-description = ""
-date = "2014-09-26"
-menu = "main"
+title = "Install IPBE - Windows"
+description = "Proses pemasangan iPhone Backup Extractor dari Raincubate"
+date = "2022-02-01"
+next_url = "/windows/versi-itunes/"
 +++
 
 {{< lead >}}
@@ -169,71 +169,6 @@ Kemudian Klik tanda panah pada sisi kiri kolom password.
 
 
 <img src="/raincubate/install/10_Login.PNG" width="800" class="img-thumbnail center" alt="Installed Software Mobile Spy 1" />
-
-
-
-<!-- LANGKAH -->
-
-### 11.0
-
-**11.0**. Pilih > "**Sign In iCloud**"
-
-<img src="/raincubate/install/11_Sign_In_iCloud_iPhone.PNG" width="900" class="img-thumbnail center" alt="Installed Software Mobile Spy 1" />
-
-
-
-<!-- LANGKAH -->
-
-### 12.0
-
-12.0. Klik pada menu >iCloud (_Icon Awan_) (_**Add Your iCloud Account**_)
-
-<img src="/raincubate/install/12_Add_iCloud_iPhone_02.PNG" width="900" class="img-thumbnail center" alt="Installed Software Mobile Spy 1" />
-
-
-
-
-
-
-
-
-
-<!-- LANGKAH -->
-
-### 13.0
-
-**13.0**. Sekarang menghubungkan dengan iCloud target!
-
-- Masukan "**ID Apple**" (_yang terpasang di device iPhone / iPad target_)
-- Masukan "**Password**"
-- Centang "**Remember Password**" (_Optional_)
-- Kemudian klik icon panah pada bilah kanan kolom password
-
-<img src="/raincubate/install/13_Add_iCloud_iPhone_03.PNG" width="900" class="img-thumbnail center" alt="Installed Software Mobile Spy 1" />
-
-
-
-
-<!-- LANGKAH -->
-
-### 14.0
-
-**Result.** 
-
-
-
-<img src="/raincubate/install/Demo_Extract_iCloud.PNG" width="900" class="img-thumbnail center" alt="Installed Software Mobile Spy 1" />
-
-
-
-
-
-
-
-
-
-
-
 
 
 

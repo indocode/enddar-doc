@@ -8,7 +8,7 @@
 
 <h2>{{ .Section | upper }}</h2>
 
-   {{ range first 100 .Pages }}
+   {{ range first 100 .RegularPages.ByDate }}
    <ul>
       <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
    </ul>
@@ -18,7 +18,7 @@
 {{ range .Sections }}
 <h2>Subsection: {{ .Title }}</h2>
 <!-- {{ .Content }} -->
-{{ range first 100  .Pages }}
+{{ range first 100  .RegularPages.ByDate }}
 <!-- this <div> includes the title summary -->
 <div>
    <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>

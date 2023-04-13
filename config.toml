@@ -2,7 +2,7 @@ baseURL = "https://master.d2d7t8oo7j0cwl.amplifyapp.com/"
 
 languageCode = "en-us"
 DefaultContentLanguage = "id"
-title = "Phone Spy"
+title = "iPhone Spy"
 theme = "ace-documentation"
 pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
@@ -32,5 +32,5 @@ home = [ "HTML", "RSS", "JSON"]
   
 [[menu.shortcuts]]
 name = "<button class='btn btn-success mt-n1'>Download</button>"
-url = "https://github.com/vantagedesign/ace-documentation/releases"
+url = "https://detektif.net"
 weight = 3
